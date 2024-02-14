@@ -11,8 +11,10 @@ body {
     background-image: url('assets/background.png');
     background-repeat: no-repeat;
     overflow: hidden;
+    
 }
 /* the main card container */
+
 
 .card{
   width: 441px;
@@ -20,18 +22,30 @@ body {
   margin: 80px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:rgb(255, 255, 255);
+  background-color:#ffeef7;
   border-radius: 30px;
 }
 
+.card-image{ 
+  position: absolute
+  ;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 200px; /* Adjust width as needed */
+  height: 215px; /* Maintain aspect ratio */
+  }
+
 h1{
+  
   margin-bottom: 0px;
   font-family: 'Kumbh Sans', sans-serif;
   font-weight: 600;
   text-align: center;
   font-size: 45px;
   position: relative; top: 40px;
-  color: #27a59c;
+  color: #4e0d2a;
   
 }
 
@@ -43,23 +57,26 @@ h2{
   text-align: center;
   position: relative; 
   top: 40px;
-  color: #027691;
+  color: #82204c;
 } 
 
 h3{
   margin-top: 0px;
-  padding-top: 0px;
+  padding-top: 5px;
   font-family: 'Kumbh Sans', sans-serif;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   position: relative; 
-  top: 100px;
+  top: 80px;
+}
+.icon-wrapper{
+  margin-left: 20px;
 }
 /* How links are styled on page load and also after a link has been visited */
 a:link, a:visited {
-  color: #0b8577;
+  color: #82204c;
   padding: 0px 0px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 /* how a link is styled when you hover over it */
@@ -88,4 +105,11 @@ a:hover {
     font-size:17px;
     top: 60px;
   }
-  }
+}
+
+
+
+
+
+
+

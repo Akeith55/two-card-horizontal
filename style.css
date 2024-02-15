@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding: ;
     margin: 0;
     box-sizing: border-box;
     /* border: 1px solid blue; */
@@ -7,12 +7,21 @@
 
 
 body {
-    background-color: gray;
-    background-image: url('assets/background.png');
-    background-repeat: no-repeat;
-    overflow: hidden;
-    
+  background-color: gray;
+  background-image: url('mountain.gif');
+  background-repeat: no-repeat;
+  background-size: cover; /* to cover the entire background */
+  overflow: hidden;
 }
+
+img {
+  width: fit-content;
+  height: auto; /* fix the typo ':' to ';' */
+  max-width: fit-content;
+  max-height: fit-content;
+}
+    
+
 /* the main card container */
 
 
@@ -29,7 +38,7 @@ body {
 .card-image{ 
   position: absolute
   ;
-  top: 26%;
+  top: 29%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -40,9 +49,10 @@ body {
 h1{
   
   margin-bottom: 0px;
-  font-family: 'Kumbh Sans', sans-serif;
+  padding-left: 20px;
+  font-family: 'Varela Round', sans-serif;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
   font-size: 45px;
   position: relative; top: 40px;
   color: #4e0d2a;
@@ -52,7 +62,7 @@ h1{
 h2{
   margin-top: 0px;
   padding-top: 0px;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-weight: 200;
   text-align: center;
   position: relative; 
@@ -63,7 +73,7 @@ h2{
 h3{
   margin-top: 0px;
   padding-top: 5px;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-weight: 400;
   text-align: left;
   position: relative; 

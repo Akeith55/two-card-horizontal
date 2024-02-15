@@ -46,14 +46,27 @@ img {
   height: 215px; /* Maintain aspect ratio */
   }
 
+  
+  .card2-image{
+    position: absolute
+    ;
+    top: 62%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Maintain aspect ratio */
+  }
+  
+  
 h1{
   
   margin-bottom: 0px;
   padding-left: 20px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'IBM-plex-mono', monospace;
   font-weight: 600;
   text-align: left;
-  font-size: 45px;
+  font-size: 40.5px;
   position: relative; top: 40px;
   color: #4e0d2a;
   
@@ -62,18 +75,18 @@ h1{
 h2{
   margin-top: 0px;
   padding-top: 0px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'IBM-plex-mono', monospace;
   font-weight: 200;
   text-align: center;
   position: relative; 
   top: 40px;
-  color: #82204c;
+  color: #bf4c68;
 } 
 
 h3{
   margin-top: 0px;
   padding-top: 5px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'IBM-plex-mono', monospace;
   font-weight: 400;
   text-align: left;
   position: relative; 
@@ -84,7 +97,7 @@ h3{
 }
 /* How links are styled on page load and also after a link has been visited */
 a:link, a:visited {
-  color: #82204c;
+  color: #bf4c68;
   padding: 0px 0px;
   text-align: left;
   text-decoration: none;

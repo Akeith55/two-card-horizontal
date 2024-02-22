@@ -54,7 +54,6 @@ img {
     left: 40%;
     transform: translate(-50%, -50%);
     
-  
     width: 200px; /* Adjust width as needed */
     height: 200px; /* Maintain aspect ratio */
   }
@@ -62,7 +61,7 @@ img {
   
 h1{
   
-  margi n-bottom: 0px;
+  margin-bottom: 0px;
   padding-left: 20px;
   font-family: 'IBM-plex-mono', monospace;
   font-weight: 600;
